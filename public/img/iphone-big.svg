@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="618px" height="1256px" viewBox="0 0 618 1256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Flattened</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4" y="0" width="610" height="1256" rx="94"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="610" height="1256" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <ellipse id="path-3" cx="48.9726027" cy="48.011236" rx="48" ry="48"></ellipse>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="96" height="96" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <circle id="path-5" cx="48.9726027" cy="48.011236" r="42"></circle>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="84" height="84" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="44" y="160" width="534" height="950" rx="6"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="538" height="954">
+            <rect x="42" y="158" width="538" height="954" fill="white"></rect>
+            <use xlink:href="#path-7" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="iPhone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Smaller-Size-@2x" transform="translate(-525.000000, -206.000000)">
+            <g id="Flattened" transform="translate(525.000000, 206.000000)">
+                <use id="Frame" stroke="#FEC98A" mask="url(#mask-2)" stroke-width="4" fill="#FFFCF8" xlink:href="#path-1"></use>
+                <g id="Buttons" transform="translate(0.000000, 159.469663)" fill="#FEC98A">
+                    <path d="M0,3.5268695 C0,1.87193034 1.34651712,0.530337079 3,0.530337079 L6,0.530337079 L6,50.5303371 L3,50.5303371 C1.34314575,50.5303371 0,49.1929579 0,47.5338047 L0,3.5268695 Z" id="Sound"></path>
+                    <path d="M0,109.525069 C0,107.871124 1.34651712,106.530337 3,106.530337 L6,106.530337 L6,200.530337 L3,200.530337 C1.34314575,200.530337 0,199.183464 0,197.535605 L0,109.525069 Z" id="Volume-Up"></path>
+                    <path d="M0,225.525069 C0,223.871124 1.34651712,222.530337 3,222.530337 L6,222.530337 L6,316.530337 L3,316.530337 C1.34314575,316.530337 0,315.183464 0,313.535605 L0,225.525069 Z" id="Volume-Down"></path>
+                    <path d="M612,106.530337 L615,106.530337 C616.656854,106.530337 618,107.87721 618,109.525069 L618,197.535605 C618,199.18955 616.653483,200.530337 615,200.530337 L612,200.530337 L612,106.530337 Z" id="Power"></path>
+                </g>
+                <ellipse id="Camera" stroke="#FEC98A" stroke-width="2" fill="#FFF7ED" cx="214" cy="82.0019636" rx="10" ry="10.0019636"></ellipse>
+                <path d="M256,82 C256,79.2385763 258.238418,77 261.005802,77 L356.994198,77 C359.758826,77 362,79.2441952 362,82 C362,84.7614237 359.761582,87 356.994198,87 L261.005802,87 C258.241174,87 256,84.7558048 256,82 Z" id="Speaker" fill="#FFF7ED"></path>
+                <path d="M258,82 C258,83.6530041 259.347513,85 261.005802,85 L356.994198,85 C358.65641,85 360,83.6574564 360,82 C360,80.3469959 358.652487,79 356.994198,79 L261.005802,79 C259.34359,79 258,80.3425436 258,82 Z M256,82 C256,79.2385763 258.238418,77 261.005802,77 L356.994198,77 C359.758826,77 362,79.2441952 362,82 C362,84.7614237 359.761582,87 356.994198,87 L261.005802,87 C258.241174,87 256,84.7558048 256,82 Z" id="Speaker" fill="#FEC98A"></path>
+                <g id="Front-Button" transform="translate(260.027397, 1129.988764)" stroke="#FEC98A" stroke-width="2">
+                    <use id="Outer" mask="url(#mask-4)" fill="#FEF6EC" xlink:href="#path-3"></use>
+                    <use id="Inner" mask="url(#mask-6)" fill="#FFF9F2" xlink:href="#path-5"></use>
+                </g>
+                <g id="Screen">
+                    <use fill="#FEC98A" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <use stroke="#FEC98A" mask="url(#mask-8)" stroke-width="4" xlink:href="#path-7"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

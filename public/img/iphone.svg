@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="372px" height="756px" viewBox="0 0 372 756" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Flattened</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="0" width="368" height="756" rx="57"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="368" height="756" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <ellipse id="path-3" cx="29.4786541" cy="29.8475274" rx="29" ry="29"></ellipse>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="58" height="58" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <ellipse id="path-5" cx="29.4786541" cy="29.8475274" rx="26" ry="26"></ellipse>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="52" height="52" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <rect id="path-7" x="25" y="96" width="323" height="576" rx="4"></rect>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-2" y="-2" width="327" height="580">
+            <rect x="23" y="94" width="327" height="580" fill="white"></rect>
+            <use xlink:href="#path-7" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="iPhone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tiny-Size-@2x" transform="translate(-648.000000, -456.000000)">
+            <g id="Flattened" transform="translate(648.000000, 456.000000)">
+                <use id="Frame" stroke="#FEC98A" mask="url(#mask-2)" stroke-width="4" fill="#FFFCF8" xlink:href="#path-1"></use>
+                <g id="Buttons" transform="translate(0.000000, 95.986517)" fill="#FEC98A">
+                    <path d="M0,1.52174722 C0,0.688755974 0.665797234,0.0134831461 1.5,0.0134831461 L3,0.0134831461 L3,30.0134831 L1.5,30.0134831 C0.671572875,30.0134831 0,29.3448283 0,28.5052191 L0,1.52174722 Z" id="Sound"></path>
+                    <path d="M0,65.5087962 C0,64.6829576 0.665797234,64.0134831 1.5,64.0134831 L3,64.0134831 L3,121.013483 L1.5,121.013483 C0.671572875,121.013483 0,120.333638 0,119.51817 L0,65.5087962 Z" id="Volume-Up"></path>
+                    <path d="M0,135.508796 C0,134.682958 0.665797234,134.013483 1.5,134.013483 L3,134.013483 L3,191.013483 L1.5,191.013483 C0.671572875,191.013483 0,190.333638 0,189.51817 L0,135.508796 Z" id="Volume-Down"></path>
+                    <path d="M369,64.0134831 L370.5,64.0134831 C371.328427,64.0134831 372,64.6933286 372,65.5087962 L372,119.51817 C372,120.344009 371.334203,121.013483 370.5,121.013483 L369,121.013483 L369,64.0134831 Z" id="Power"></path>
+                </g>
+                <ellipse id="Camera" stroke="#FEC98A" cx="129" cy="49.0008699" rx="6" ry="6.00086988"></ellipse>
+                <path d="M155,49 C155,50.1024607 155.897146,51 157.001012,51 L214.998988,51 C216.108333,51 217,50.1072229 217,49 C217,47.8975393 216.102854,47 214.998988,47 L157.001012,47 C155.891667,47 155,47.8927771 155,49 Z M154,49 C154,47.3431458 155.336731,46 157.001012,46 L214.998988,46 C216.656401,46 218,47.3465171 218,49 C218,50.6568542 216.663269,52 214.998988,52 L157.001012,52 C155.343599,52 154,50.6534829 154,49 Z" id="Speaker" fill="#FEC98A"></path>
+                <g id="Front-Button" transform="translate(156.000000, 681.000000)" stroke="#FEC98A" stroke-width="2">
+                    <use id="Outer" mask="url(#mask-4)" xlink:href="#path-3"></use>
+                    <use id="Inner" mask="url(#mask-6)" xlink:href="#path-5"></use>
+                </g>
+                <g id="Screen">
+                    <use fill="#FEC98A" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    <use stroke="#FEC98A" mask="url(#mask-8)" stroke-width="4" xlink:href="#path-7"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

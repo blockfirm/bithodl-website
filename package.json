@@ -1,0 +1,24 @@
+{
+  "name": "bithodl-website",
+  "version": "1.0.0",
+  "description": "Website for bithodl.com.",
+  "main": "script/server.js",
+  "scripts": {
+    "start": "node script/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothyej/bithodl.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothyej/bithodl.com/issues"
+  },
+  "homepage": "https://bithodl.com",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}
