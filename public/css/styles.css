@@ -83,25 +83,52 @@ a:active {
   width: 100%;
 }
 
-.banks-background {
-  width: 923px;
-  height: 279px;
-  background: url(../img/banks-background.png) no-repeat;
-  background-size: 923px 279px;
-  margin-bottom: 120px;
+.scene-fade {
+  position: absolute;
+  top: 0;
+  bottom: -50px;
+  width: 200px;
+  pointer-events: none;
+}
+.scene-fade.left {
+  left: 0;
+  background: -moz-linear-gradient(left, #ffffff 15px, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(left, #ffffff 15px, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(left, #ffffff 15px, rgba(255, 255, 255, 0) 100%);
+  background: -ms-linear-gradient(left, #ffffff 15px, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to right, #ffffff 15px, rgba(255, 255, 255, 0) 100%);
+}
+.scene-fade.right {
+  right: 0;
+  background: -moz-linear-gradient(right, #ffffff 15px, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-linear-gradient(right, #ffffff 15px, rgba(255, 255, 255, 0) 100%);
+  background: -o-linear-gradient(right, #ffffff 15px, rgba(255, 255, 255, 0) 100%);
+  background: -ms-linear-gradient(right, #ffffff 15px, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to left, #ffffff 15px, rgba(255, 255, 255, 0) 100%);
 }
 
-.street-light {
-  width: 28px;
-  height: 124px;
-  background: url(../img/street-light.png) no-repeat;
-  background-size: 28px 124px;
-  position: absolute;
-  margin-top: 177px;
-  margin-left: 28px;
+.clouds {
+  width: 923px;
+  height: 114px;
+  background: url(../img/clouds.svg);
+  background-size: cover;
 }
-.street-light.right {
-  margin-left: 860px;
+
+.roller-coaster-back,
+.roller-coaster-front {
+  background-size: cover;
+  margin-bottom: 120px;
+}
+.roller-coaster-back {
+  width: 923px;
+  height: 347px;
+  background-image: url(../img/roller-coaster-back.svg);
+}
+.roller-coaster-front {
+  width: 923px;
+  height: 386px;
+  background-image: url(../img/roller-coaster-front.svg);
+  opacity: 0.7;
 }
 
 .iphone {
@@ -111,7 +138,7 @@ a:active {
   background-size: 186px 378px;
   position: absolute;
   display: inline-block;
-  margin-top: -47px;
+  margin-top: 27px;
   margin-left: -93px;
   cursor: pointer;
   cursor: zoom-in;
@@ -158,7 +185,7 @@ a:active {
   border-radius: 28px;
   position: absolute;
   display: inline-block;
-  margin-top: -47px;
+  margin-top: 27px;
   margin-left: -92px;
 }
 .iphone-flat-shadow {
@@ -168,7 +195,7 @@ a:active {
   border-radius: 28px;
   position: absolute;
   display: inline-block;
-  margin-top: -43px;
+  margin-top: 31px;
   margin-left: -93px;
 }
 
@@ -491,13 +518,19 @@ input.input:placeholder-shown {
 }
 
 @media (max-width: 800px) {
-  .banks-background {
+  .roller-coaster-front,
+  .roller-coaster-back {
     margin-left: -80px;
+  }
+
+  .scene-fade {
+    display: none;
   }
 }
 
 @media (max-width: 500px) {
-  .banks-background {
+  .roller-coaster-front,
+  .roller-coaster-back {
     margin-left: -350px;
   }
 }

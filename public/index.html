@@ -28,12 +28,26 @@
     <main>
       <div class="content">
         <div id="scene" class="anim fade-in">
-          <div class="layer banks-background" data-depth="0.20"></div>
-          <div class="layer street-light" data-depth="0.25"></div>
-          <div class="layer street-light right" data-depth="0.25"></div>
+          <div class="layer" data-depth="0.20">
+              <div class="roller-coaster-back"></div>
+              <div class="scene-fade left"></div>
+              <div class="scene-fade right"></div>
+          </div>
+
+          <div class="layer" data-depth="0.30">
+              <div class="roller-coaster-front"></div>
+              <div class="scene-fade left"></div>
+              <div class="scene-fade right"></div>
+          </div>
+
+          <div class="layer" data-depth="0.10">
+              <div class="clouds"></div>
+          </div>
+
           <div class="layer layer-full-width" data-depth="0.90">
             <div class="iphone-flat-shadow"></div>
           </div>
+
           <div class="layer layer-full-width" data-depth="1.00">
             <div class="iphone-blurred-shadow"></div>
 
