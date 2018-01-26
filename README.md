@@ -17,4 +17,4 @@ And then browse to <http://localhost:3001/>.
 
 ## Copyright
 
-Copyright 2017 Timothy E. Johansson. All rights reserved.
+Copyright 2018 Blockfirm. All rights reserved.

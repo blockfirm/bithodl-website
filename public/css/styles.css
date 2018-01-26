@@ -18,11 +18,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 70px 0;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  overflow: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,13 +38,6 @@ h1 {
   font-size: 34px;
   letter-spacing: 0.5px;
   margin: 0;
-}
-h2 {
-  font-family: 'Avenir Next LT W01 Demi', 'Avenir Next', sans-serif, arial;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: #DDDDDF;
 }
 
 p {
@@ -112,12 +107,14 @@ a:active {
   height: 114px;
   background: url(../img/clouds.svg);
   background-size: cover;
+  opacity: 0.5;
 }
 
 .roller-coaster-back,
 .roller-coaster-front {
   background-size: cover;
   margin-bottom: 120px;
+  opacity: 0.5;
 }
 .roller-coaster-back {
   width: 923px;
@@ -128,7 +125,6 @@ a:active {
   width: 923px;
   height: 386px;
   background-image: url(../img/roller-coaster-front.svg);
-  opacity: 0.7;
 }
 
 .iphone {
@@ -199,6 +195,29 @@ a:active {
   margin-left: -93px;
 }
 
+.app-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 17.544%;
+  box-shadow: 0 0 18px rgba(254, 201, 138, 0.6);
+  margin-bottom: 40px;
+}
+
+a.app-store-button {
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 14px 10px -10px rgba(0, 0, 0, 0.25);
+  -webkit-transition: transform 0.2s ease-out, box-shadow .2s ease-out;
+  -moz-transition: transform 0.2s ease-out, box-shadow .2s ease-out;
+  -o-transition: transform 0.2s ease-out, box-shadow .2s ease-out;
+  transition: transform 0.2s ease-out, box-shadow .2s ease-out;
+}
+a.app-store-button:hover {
+  box-shadow: 0 16px 12px -10px rgba(0, 0, 0, 0.25);
+  transform: scale(1.05);
+}
+
 .text {
   display: inline-block;
   max-width: 730px;
@@ -239,25 +258,16 @@ footer a:active svg {
 }
 
 .copyright {
-  position: absolute;
+  position: fixed;
   left: 30px;
   bottom: 30px;
   color: #DDDDDF;
-  padding-left: 42px;
 }
 .copyright h4 {
   font-family: 'Avenir Next LT W01 Demi', 'Avenir Next', sans-serif, arial;
   font-size: 11px;
   margin: 0;
   margin-top: 3px;
-}
-.copyright-logo {
-  width: 32px;
-  height: 32px;
-  background: url(../img/logo-footer.svg) no-repeat;
-  background-size: 32px 32px;
-  position: absolute;
-  left: 0;
 }
 .copyright-text {
   display: block;
@@ -266,7 +276,7 @@ footer a:active svg {
 }
 
 .love {
-  position: absolute;
+  position: fixed;
   bottom: 30px;
   left: 50%;
   transform: translate(-50%);
@@ -286,7 +296,7 @@ footer a:active svg {
 }
 
 .social {
-  position: absolute;
+  position: fixed;
   right: 30px;
   bottom: 30px;
 }
@@ -302,6 +312,16 @@ footer a:active svg {
 .icon-twitter {
   width: 17px;
   height: 13px;
+}
+
+.icon-github {
+  width: 16px;
+  height: 16px;
+}
+
+.link-github {
+  position: relative;
+  top: 1px;
 }
 
 form {
@@ -503,6 +523,11 @@ input.input:placeholder-shown {
     margin-top: 100px;
   }
 
+  .copyright,
+  .social {
+    position: absolute;
+  }
+
   .love {
     display: none;
   }
@@ -532,5 +557,25 @@ input.input:placeholder-shown {
   .roller-coaster-front,
   .roller-coaster-back {
     margin-left: -350px;
+  }
+}
+
+@media (max-height: 840px) {
+  main {
+    position: static;
+  }
+
+  footer {
+    position: relative;
+    margin-top: 100px;
+  }
+
+  .copyright,
+  .social {
+    position: absolute;
+  }
+
+  .love {
+    display: none;
   }
 }

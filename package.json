@@ -9,15 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/timothyej/bithodl.com.git"
+    "url": "git+https://github.com/blockfirm/bithodl-website.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Timothy Engqvist Johansson <timothy@blockfirm.se>",
+  "website": "https://bithodl.com",
+  "copyright": "© 2018 Blockfirm AB",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/timothyej/bithodl.com/issues"
+    "url": "https://github.com/blockfirm/bithodl-website/issues"
   },
-  "homepage": "https://bithodl.com",
   "devDependencies": {
     "express": "^4.13.4"
   }
